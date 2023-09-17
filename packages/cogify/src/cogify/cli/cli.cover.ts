@@ -1,6 +1,6 @@
 import { ConfigProviderMemory } from '@basemaps/config';
 import { initConfigFromUrls } from '@basemaps/config/build/json/tiff.config.js';
-import { GoogleTms, Nztm2000QuadTms, TileId, TileMatrixSet } from '@basemaps/geo';
+import { GoogleTms, Nztm2000QuadTms, TileId } from '@basemaps/geo';
 import { fsa } from '@basemaps/shared';
 import { CliId, CliInfo } from '@basemaps/shared/build/cli/info.js';
 import { Metrics } from '@linzjs/metrics';
